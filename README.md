@@ -1,4 +1,4 @@
-# bid_modeling
+# Bid Modeling
 
 # Background
 This data comes from a commercial electrical contractor that specializes in office and medical buildings. In order to get a new project, this company must submit a bid to the general contractor stating the estimated price to complete the job (includes labor, cost of materials, overhead, etc.).
@@ -55,3 +55,5 @@ While competitive is agianst several other companies.
 Since this company is based in Orange County in is unsiprising to see that the majority of the jobs are local. 
 Bids outside of OC do not do well. 
  
+# Feature Engineering
+I initially created a column for each category in all of the features. 
