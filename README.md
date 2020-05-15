@@ -30,12 +30,14 @@ One of the first features I looked at was the price of the bids in dollars. Most
 
 ![](https://github.com/jrp8401/bid_modeling/blob/master/imgs/bid_range.png)
 
-The three different departments 
+The three different departments tend to bid of specific projects.
+
+
 ![](https://github.com/jrp8401/bid_modeling/blob/master/imgs/departments.png)
 
 department ratios
-SP is most of these cheap projects usually from existsig 
-est more of the compet bids
+Special projects is mostly cheaper projects usually to update something for a past client.  
+Estimating department works mostly on competitive bids.
 ![](https://github.com/jrp8401/bid_modeling/blob/master/imgs/bid_type.png)
 Bid types
     comp more comp 
