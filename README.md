@@ -1,15 +1,16 @@
 # Bid Modeling
 
 # Background
-This data comes from a commercial electrical contractor that specializes in office and medical buildings. In order to get a new project, this company must submit a bid to the general contractor stating the estimated price to complete the job (includes labor, cost of materials, overhead, etc.).
+This data set comes from a commercial electrical contractor that specializes in office and medical buildings. In order to get a new project, this company must submit a bid to the general contractor stating the estimated price to complete the job (includes labor, cost of materials, overhead, etc.).
 
 # Goal 
 The of this project is to:
+      
       Build a model that can accurately predict whether a project will be awarded or not 
       Determine the factors that affect/affect the result of the bid.
 
 # Data
-The data comes from a spreadsheet maintained by a team of estimators. Once an estimator starts a bid, they enter basic information to the spreadsheet. After the estimator has submitted the bid, they update the spreadsheet and set the `Bid_Status` to `Pending`. The spreadsheet is updated again after the bid has been awarded or lost. This is the ideal situation, in reality the spreadsheet is not maintained perfectly. 
+The data comes from a spreadsheet maintained by a team of estimators. When an estimator starts a bid, they enter basic information to the spreadsheet. Once the estimator has submitted the bid, they update the spreadsheet with additional information as well as set the `Bid_Status` to `Pending`. The spreadsheet is updated again after the bid has been awarded or lost. This is the ideal situation, in reality the spreadsheet is not maintained perfectly. 
 
 Upon my initial EDA I noticed empty values in the spreadsheet. I was able to fill out some missing data based on other information in the spreadsheet. The data also had inconsistencies in spelling, spacing and abbreviations so I had to find the outliers and modify some values to create accurate categories. In the 5 years of bid logs there were about 1400 individual bids, however over 500 were still left `Pending`, so I had to drop those data points for now. Several factors contributed to this: breakdown of communication between departments, jobs being cancelled after bids were submitted, jobs that are actually pending (bid not awarded to anyone yet).
 
@@ -64,9 +65,12 @@ In order to change `Bid Amount` from a numerical value to a categorical value ba
 Since there is an imbalance between the `Awarded` and `Lost` classes I used SMOTE to resample and split my train and test sets.
 I then used GridSearchCV along with a LogisticRegression model to choose the optimal parameters for the model. 
 
-Accuracy Score: 0.8289473684210527
 
 Recall Score: 0.8006230529595015
+
+Accuracy Score: 0.8289473684210527
+
+
 
 Feature |  Coefficient |
 | ----------- | ----------- |
@@ -84,7 +88,7 @@ Feature |  Coefficient |
 
 # Conclusion
 
-This model was able to predict whether or not a bid will be awarded fairly well. I was also able to find some relationships between the features and this prediction. I think one of the main weaknesses of this model is lack of data. I plan on trying to update these bid logs in order to fill in missing values and correctly reclassify some of projects that are no longer `Pending`.
+This model was able to predict whether or not a bid will be awarded fairly well. It was also able to find some relationships between the features and this prediction. I think one of the main weaknesses of this model is lack of data. I plan on trying to update these bid logs in order to fill in missing values and correctly reclassify some of projects that are no longer `Pending`.
 
 
 
