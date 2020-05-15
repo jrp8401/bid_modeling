@@ -56,4 +56,24 @@ Since this company is based in Orange County in is unsiprising to see that the m
 Bids outside of OC do not do well. 
  
 # Feature Engineering
-I initially created a column for each category in all of the features. 
+In order to change `Bid Amount` from a numerical value to a categorical value based on the IQR. Then I created a column for every category in each of the other features. I then preformed VIF and removed the feature with the highest score. I repeated this several times to minimize the VIF scores and reduce colinearity between features. I also changed my target `Bid Status` from Awarded and lost to 1 and 0.   
+
+# Models
+Since there is an inbalance between the `Awarded` and `Lost` classes I used SMOTE to resample and split my train and test sets. 
+
+Accuracy Score: 0.8289473684210527
+Recall Score: 0.8006230529595015
+
+Feature |  Coefficient |
+| ----------- | ----------- |
+| EST | -1.141563 |
+| PM | -0.145808 |
+| OC | 0.630806 |
+| Budget | -0.302537 |
+| Competitive | -0.824628 |
+| Negotiated | 2.143627 |
+| D/A | 0.028728 |
+| D/B | 0.750628 |
+| 50% Bid | -0.138291 |
+| 75% Bid | -0.508384 |
+| Big Bid | -0.942494 |
