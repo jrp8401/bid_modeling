@@ -41,9 +41,9 @@ Estimating department works mostly on competitive bids.
 
 **Bid Types**
 ![](https://github.com/jrp8401/bid_modeling/blob/master/imgs/bid_type.png)
+Select Bid List refers to the small amount of other electracal contractors bidding for the job. While competitive is agianst several other companies. 
 
 **Local**
 ![](https://github.com/jrp8401/bid_modeling/blob/master/imgs/local.png)
-Local refers to the local electricians guild. 
-    most jobs in OC
-    Bids in other counties dont go so well
+Since this company is based in Orange County in is unsiprising to see that the majority of the jobs are local. Bids outside of OC do not do well. 
+ 
