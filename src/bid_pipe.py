@@ -44,7 +44,7 @@ def pipe(df,s, f = False):
     print(tit)
     return  ProfileReport(df, title=tit, html={'style':{'full_width':True}}), df    
 #read and clean files 
-if __name__ = '__main__':
+if __name__ == '__main__':
     yearly_bid_data=[]
     yearly_profiles=[]
     files = ['data/2015 Bid Log.csv','data/2016 Bid Log.csv','data/2017 Bid Log.csv','data/2018 Bid Log.csv','data/2019 Bid Log.csv',]
