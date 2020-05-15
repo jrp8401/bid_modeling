@@ -16,6 +16,7 @@ Upon my initial EDA I noticed empty values in the spreadsheet. I was able to fil
 The features that were available for almost every project was `Project Description`, `City`, `Local Guild`, `Project Type`, `Bid Type`, `Design Type`, `Estimator`, `Department`, `Bid Amount` and `Bid Status`.
 
 Base bid bistograms
+![](https://github.com/jrp8401/bid_modeling/blob/master/imgs/base_bid.png)
 most of the bids are small projects, these projects have a high hit rate
 
 medium range
