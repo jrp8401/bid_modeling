@@ -15,25 +15,29 @@ Upon my initial EDA I noticed empty values in the spreadsheet. I was able to fil
 
 The features that were available for almost every project was `Project Description`, `City`, `Local Guild`, `Project Type`, `Bid Type`, `Design Type`, `Estimator`, `Department`, `Bid Amount` and `Bid Status`.
 
-Base bid bistograms
 ![](https://github.com/jrp8401/bid_modeling/blob/master/imgs/base_bid.png)
-most of the bids are small projects, these projects have a high hit rate
+One of the first features I looked at was the price of the bids in dollars. Most of the bids are on smaller, cheaper projects, however there is a small portion of million dollar plus bids. These cheaper projects have a higher hit rate than the expensive ones. 
 
-medium range
 
-big bids lower hit rate
+![](https://github.com/jrp8401/bid_modeling/blob/master/imgs/low_range.png)
+![](https://github.com/jrp8401/bid_modeling/blob/master/imgs/mid_low.png)
+![](https://github.com/jrp8401/bid_modeling/blob/master/imgs/mid_range.png)
+![](https://github.com/jrp8401/bid_modeling/blob/master/imgs/high_mid.png)
+![](https://github.com/jrp8401/bid_modeling/blob/master/imgs/bid_range.png)
 
+
+![](https://github.com/jrp8401/bid_modeling/blob/master/imgs/departments.png)
 
 department ratios
 SP is most of these cheap projects usually from existsig 
 est more of the compet bids
-
+![](https://github.com/jrp8401/bid_modeling/blob/master/imgs/bid_type.png)
 Bid types
     comp more comp 
     select bid list most common 
     negoitated solid
         both working wiht previous relationships
-
+![]https://github.com/jrp8401/bid_modeling/blob/master/imgs/local.png)
 Local refers to the local electricians guild. 
     most jobs in OC
     Bids in other counties dont go so well
