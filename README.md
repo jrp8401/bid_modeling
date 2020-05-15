@@ -34,7 +34,7 @@ One of the first features I looked at was the `Bid Amount` in dollars. Most of t
 
 
 
-**Deparments**
+**Departments**
 
 ![](https://github.com/jrp8401/bid_modeling/blob/master/imgs/departments.png)
 
@@ -46,23 +46,23 @@ Special projects mostly works cheaper projects, usually an update for a past cli
 
 ![](https://github.com/jrp8401/bid_modeling/blob/master/imgs/bid_type.png)
 
-Select Bid List refers to the small amount of other electracal contractors bidding for the job. 
-While competitive is agianst several other companies. 
+Select Bid List refers to the small amount of other electrical contractors bidding for the job. 
+While competitive is against several other companies. 
 
 **Local**
 
 ![](https://github.com/jrp8401/bid_modeling/blob/master/imgs/local.png)
 
-Since this company is based in Orange County in is unsiprising to see that the majority of the jobs are local. 
+Since this company is based in Orange County it is unsurprising to see that the majority of the jobs are local. 
 Bids outside of OC do not do well. 
  
 # Feature Engineering
-In order to change `Bid Amount` from a numerical value to a categorical value based on the IQR. Then I created a column for every category in each of the other features. I then preformed VIF and removed the feature with the highest score. I repeated this several times to minimize the VIF scores and reduce colinearity between features. I also changed my target `Bid Status` from `Awarded` and `Lost` to `1` and `0`.   
+In order to change `Bid Amount` from a numerical value to a categorical value based on the IQR. Then I created a column for every category in each of the other features. I then performed VIF and removed the feature with the highest score. I repeated this several times to minimize the VIF scores and reduce collinearity between features. I also changed my target `Bid Status` from `Awarded` and `Lost` to `1` and `0`.   
 
 
 # Models
-Since there is an inbalance between the `Awarded` and `Lost` classes I used SMOTE to resample and split my train and test sets.
-I then used GridSeachCV along with a LogisticRegression model to choose the optimal parameters for the model. 
+Since there is an imbalance between the `Awarded` and `Lost` classes I used SMOTE to resample and split my train and test sets.
+I then used GridSearchCV along with a LogisticRegression model to choose the optimal parameters for the model. 
 
 Accuracy Score: 0.8289473684210527
 
@@ -82,8 +82,10 @@ Feature |  Coefficient |
 | 75% Bid | -0.508384 |
 | Big Bid | -0.942494 |
 
-# Conclustion
+# Conclusion
 
-This model was able to predict whether or not a bid wil be awarded fairly well. I was also able to find some relatonships between the features and this prediction. I think one of the main weaknesses of this model is lack of data. I plan on trying to update these bid logs in order to fill in missing values and correctly reclassify some of projects that are no longer `Pending`.
+This model was able to predict whether or not a bid will be awarded fairly well. I was also able to find some relationships between the features and this prediction. I think one of the main weaknesses of this model is lack of data. I plan on trying to update these bid logs in order to fill in missing values and correctly reclassify some of projects that are no longer `Pending`.
+
+
 
 
