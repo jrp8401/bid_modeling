@@ -81,6 +81,7 @@
 135,Caremore TI 2 offices convert to 3,Electrical ti 2 offices to 3,Cerritos, 441 OC , TI , Select Bid List , Design/Build , Doyle , S.P. ,Awarded,3870
 136,Hoag Dolphin Sturcture booth removal,Add j box to replace man booth,Newport Beach, 441 OC , Hospital , Select Bid List , Design/Build , Doyle , S.P. ,Awarded,1980
 137,Troubleshoot loud 1st floor Transformer,Troubleshoot loud transformer,Irvine, 441 OC , TI , Select Bid List , Design/Build , Doyle , S.P. ,Awarded,240
+138,Calkins Residence Water Damage Repair,Repair water damaged items,Laguna Niguel, 441 OC , TI , Select Bid List , Design/Build , Doyle , S.P. ,Lost,2580
 141,AAA LA Work Space TI,Rework electrical for new lay out,Los Angeles, 441 OC , TI , Select Bid List , Design/Build , Doyle , S.P. ,Awarded,7000
 142,Baxter LA UV Cable Replacement,Labor to install customer furnished cable,Los Angeles, 441 OC , Comercial , Select Bid List , Design/Build , Doyle , S.P. ,Awarded,1935
 143,Tesla Stationary Storage System - San Bernardino,Stationary Storage Units,San Bernardino, 477 SB , Comercial , Negotiated , Engineered , Frank , Est. ,Lost,322947
@@ -143,6 +144,7 @@
 248,Deutche Bank Panel L1C feeder breaker,Trouble shoot lighting issue file room,Santa Ana, 441 OC , TI , Select Bid List , Design/Build , Doyle , S.P. ,Lost,1934
 249,First American Inverter Battery replacment,Replace 10 inverter batteries,Santa Ana, 441 OC , TI , Select Bid List , Design/Build , Doyle , S.P. ,Awarded,4000
 252,Sage Hill Tennis Complex,Sports Lighting Project,Newport Beach, 441 OC , Specialty , Competitive , Engineered , Steve  , Est. ,Lost,390694
+253,Blizzard B4 Service Tech,Tenant Improvement,Irvine, 441 OC , TI , Negotiated , Engineered , Frank , Est. ,Awarded,35400
 255,Harbor Walk Condominiums Panels,Replace FA panels,LA, 11 LA , Fire Alarm , Select Bid List , Engineered , Ron , P.M. ,Lost,98800
 256,HHI Facilities Office & Lay Down Area Electrical Services,Healthcare Tenant Improvement,Irvine, 441 OC , Hospital , Select Bid List , Engineered , Rudy , Est. ,Awarded,88337
 257,HHI Make Ready,Healthcare Tenant Improvement,Irvine, 441 OC , Hospital , Select Bid List , Engineered , Rudy , Est. ,Awarded,49707
@@ -302,6 +304,7 @@
 241,Polish Perfect - Irvine,TI for new Nail Salon,Irvine, 441 OC , TI , Select Bid List , Engineered , Frank , Est. ,Lost,45418
 242,Central Park Village MOB,4 Story Shell and Core MOB,Brea, 441 OC , Shell , Select Bid List , Engineered , Steve  , Est. ,Lost,622748
 243,Bamc of Califoinia Phase 3,4 floors of TI,Irvine, 441 OC , TI , Select Bid List , Engineered , Frank , P.M. ,Lost,1167207
+253,Providence Breeze AACC Parking Structure,Parking Structure,Torrance, 11 LA , Parking Structure , Select Bid List , Design/Build , Frank , Est. ,Awarded,383289
 264,SpaceX -  Avionics Test Lab Upgrade,Update Test lab area,Hathorne, 11 LA , Specialty , Select Bid List , Engineered , Steve  , Est. ,Lost,364265
 266,Epson Carson Sign Power,New circuit and time clock to sign,Carson, 441 OC , TI , Select Bid List , Design/Build , Doyle , S.P. ,Awarded,3680
 273,Rose Trellis hang new chandelier,Hang new Chandelier,Irvine, 441 OC , TI , Select Bid List , Design/Build , Doyle , S.P. ,Lost,800
@@ -317,6 +320,7 @@
 296,Bbraun feeder for Die Cart,225 amp feeder for die cart,Irvine, 441 OC , TI , Select Bid List , Design/Build , Doyle , S.P. ,Awarded,33239
 300,Imuraya add 2 production motors,Add 2 new motor feeders and starter,Irvine, 441 OC , Industrial , Select Bid List , Design/Build , Doyle , S.P. ,Awarded,8260
 302,AAA Yorba Linda lighting override,Add override for lighting to suite,Yorba Linda, 441 OC , TI , Select Bid List , Design/Build , Doyle , S.P. ,Awarded,2085
+303,AAA Long Beach add epower quad in elect room,Add epower quad in electric room,Long Beach, 441 OC , TI , Select Bid List , Design/Build , Doyle , S.P. ,Awarded,650
 311,Bbraun Autoclave power,Power for new autoclave,Irvine, 441 OC , Industrial , Select Bid List , Design/Build , Doyle , S.P. ,Awarded,39842
 313,Bbraun Restroom lighting remodel for 2 rooms,Lighitng for 2 restrooms,Irvine, 441 OC , TI , Select Bid List , Design/Build , Doyle , S.P. ,Awarded,13885
 314,Davita Health Care,TI remodle,El Segundo, 11 LA , TI , Select Bid List , Design/ Assist , Ron , P.M. ,Awarded,87500
@@ -451,7 +455,9 @@
 249,Bbraun new light for parking area--1 fixture,Bbraun outside light fixture for parking,Irvine, 441 OC , Site , Select Bid List , Design/ Assist , Doyle , S.P. ,Awarded,2950
 250,Union Pacific LATC Train Yard,Train Yard upgrade,Los Angeles, 11 LA , Specialty , Competitive , Engineered , Steve  , Est. ,Lost,7353261
 251,Blizzard- B22 IGR Remodel,Tenant Improvement,Irvine, 441 OC , TI , Select Bid List , Engineered , Jeff S , P.M. ,Awarded,65444
+253,Blizzard WOW 3 panel load studies,3 load studies,Irvine, 441 OC , TI , Select Bid List , Engineered , Doyle , S.P. ,Awarded,4800
 255,Pacific Alliance Medical Load Studies,6 Load studies for 72 hours,Los Angeles, 441 OC , Hospital , Select Bid List , Design/ Assist , Doyle , S.P. ,Awarded,6000
+256,Add power for signage Budget,Sign Lighting Budget,Newport Beach, 441 OC , Specialty , Budget , Design/Build , Bill  , P.M. ,Lost,5625
 259,Good Shephard Roof top panel,Roof top panel and circuit to AC unit,Irvine, 441 OC , TI , Select Bid List , Design/Build , Doyle , S.P. ,Awarded,8780
 264,Newport Lido outlet for Dr. Farshidi Suite 209,Add oultet and circuit,Newport Beach, 441 OC , TI , Select Bid List , Design/Build , Doyle , S.P. ,Awarded,1440
 267,Mazda basement outlet,Add L6-30 outlet in basement,Irvine, 441 OC , TI , Select Bid List , Design/Build , Doyle , S.P. ,Awarded,2377
@@ -464,6 +470,7 @@
 287,Thales remove 400HZ rotary MG set,Reroute feeder and disconnect MG,Irvine, 441 OC , TI , Select Bid List , Design/Build , Doyle , S.P. ,Awarded,8808
 294,AAA Costa Mesa add lights to womens restrooms,add 8 lights to 4 restrooms,Costa Mesa, 441 OC , TI , Select Bid List , Design/Build , Doyle , S.P. ,Awarded,3697
 299,Charter Lighitng Repair Ontario,Lighitng repair,Ontario, 441 OC , TI , Select Bid List , Design/Build , Doyle , S.P. ,Awarded,1800
+303,Blizzard Owl Load Study,2 load studies ,Irvine, 441 OC , TI , Select Bid List , Design/Build , Doyle , S.P. ,Awarded,2600
 308,PIMCO 3rd floor conference room poke thru install,3 new poke thru 3rd fl conf room,Newport Beach, 441 OC , TI , Select Bid List , Design/Build , Doyle , S.P. ,Awarded,6988
 312,Deutsche IR scan for Santa Ana,IR scan for annual PM,Santa Ana, 441 OC , TI , Select Bid List , Design/Build , Doyle , S.P. ,Awarded,7900
 314,Charter troubleshoot outside lighting,Time on site to assist Charter,Costa Mesa, 441 OC , TI , Select Bid List , Design/Build , Doyle , S.P. ,Awarded,1000
@@ -473,6 +480,7 @@
 319,Smartstop connect new furniture cubicals,Connect new furniture cubicals,Ladera Ranch, 441 OC , TI , Select Bid List , Design/Build , Doyle , S.P. ,Awarded,2620
 330,HHNB EAST TOWER BRANDING,Patient rooms upgrade,Newport Beach, 441 OC , TI , Select Bid List , Design/ Assist , Bill  , P.M. ,Awarded,841846
 0,Bbraun Big Warehouse Fans,Install power for Big Warehouse fans,Irvine, 441 OC , Comercial , Select Bid List , Engineered , Doyle , S.P. ,Awarded,62284
+1,Pathway Capital,Tenant Improvement,Irvine, 441 OC , TI , Budget , Design/Build , Brian , Est. ,Lost,1426898
 2,Epson 5th floor conference room relamp,Relamp and dimmer ceiling cans,Long Beach, 441 OC , TI , Select Bid List , Design/Build , Doyle , S.P. ,Awarded,1770
 5,Smartstop new outlets in office,New outlets in office TI work,Ladera Ranch, 441 OC , TI , Select Bid List , Design/Build , Doyle , S.P. ,Awarded,1310
 9,Blizzard B15- Audit,Audit,Irvine, 441 OC , TI , Negotiated , Engineered , Jeff S , P.M. ,Awarded,9891
@@ -480,18 +488,23 @@
 11,HCTV ,Tenant Improvement,Irvine, 441 OC , TI , Select Bid List , Engineered , Steve  , Est. ,Awarded,624224
 14,Toy Story Parking Lot Expansion,Expansion of Parking Lot,Anaheim, 441 OC , Site , Select Bid List , Engineered , Brian , Est. ,Lost,260425
 15,Charter Add outlet in office room 103,Add one new outlet,Culver City, 441 OC , TI , Select Bid List , Design/Build , Doyle , S.P. ,Awarded,488
+21,CVX Building 510,Fire Alarm,El Segundo, 11 LA , Fire Alarm , Select Bid List , Engineered , Ron , P.M. ,Lost,35900
 22,Target Parking,Irvine Spectrum So. Pkg Structure,Irvine, 441 OC , Parking Structure , Select Bid List , Engineered , Steve  , Est. ,Lost,246018
 23,Captivate conduit for SmartStop,Conduit for Captivate project,Ladera Ranch, 441 OC , TI , Select Bid List , Design/Build , Doyle , S.P. ,Awarded,1900
+26,Blizzard B6 Budget,Restack - SF &D,Irvine, 441 OC , TI , Budget , Design/Build , Steve  , Est. ,Lost,818178
 27,Behr Paints Audit and Metering,Electrical Audit and Sub Metering,Santa Ana, 441 OC , TI , Negotiated , Design/Build , Frank , Est. ,Awarded,48630
+28,Lakeshore Towers Campus Optical Network,Tenant Improvement,Irvine, 441 OC , TI , Negotiated , Design/Build , Frank , Est. ,Lost,10366
 29,CTA replace 2 exit signs,Replace 2 exit signs ,Orange , 441 OC , TI , Select Bid List , Design/Build , Doyle , S.P. ,Awarded,600
 30,CTA replace ballast ,Replace 2 or 3 ballast,San Bernardino, 441 OC , TI , Select Bid List , Design/Build , Doyle , S.P. ,Awarded,1000
 31,OCC machine shop power,Power for 6 new machines,Costa Mesa, 441 OC , Comercial , Select Bid List , Design/Build , Doyle , S.P. ,Awarded,14231
 33,Bbraun replace 7 restroom fixtures,Replace 3 fixtures in 2 restrooms,Irvine, 441 OC , TI , Select Bid List , Design/Build , Doyle , S.P. ,Awarded,6126
 34,Beach Draperies remove drops,Remove circuits and drops,Irvine, 441 OC , TI , Select Bid List , Design/Build , Doyle , S.P. ,Awarded,955
+36,Union Bank OC Office,7th Floor Tenant Improvement,Orange , 441 OC , TI , Select Bid List , Engineered , Steve  , Est. ,Lost,341059
 37,Discovery Center Phase 2 & 4,Core and Shell,Irvine, 441 OC , Comercial , Competitive , Engineered , Brian , Est. ,Lost,4987330
 38,Blizzard B9 - QA Localization,Tenant Improvement,Irvine, 441 OC , TI , Negotiated , Engineered , Steve  , Est. ,Awarded,758475
 39,Blizzard B15 - QA Localization,Tenant Improvement,Irvine, 441 OC , TI , Negotiated , Engineered , Steve  , Est. ,Awarded,763485
 40,Blizzard B16 - QA Localization,Tenant Improvement,Irvine, 441 OC , TI , Negotiated , Engineered , Steve  , Est. ,Awarded,4055
+41,Blizzard Amenity Pricing,Tenant Improvement,Irvine, 441 OC , TI , Budget , Design/Build , Frank , Est. ,Lost,84780
 42,CNB Project Ascend (Phase 1),7 Floors of Tenant Improvement,Los Angeles, 11 LA , TI , Select Bid List , Engineered , Steve  , Est. ,Lost,4561181
 43,SpaceX Suite 302 TI,TI for new suite,Irvine, 441 OC , TI , Select Bid List , Design/Build , Doyle , S.P. ,Awarded,10053
 44,Blizzard Bld 20 Boring to 8 Pasteur ,Site UG Boring,Irvine, 441 OC , Site , Negotiated , Engineered , Todd L , P.M. ,Awarded,136540
@@ -505,6 +518,7 @@
 57,Kaiser Bellfower Optimetry,MOB TI,Bellfower, 441 OC , TI , Budget , Engineered , Jeff P. , Est. ,Awarded,741293
 59,PIMCO 11 and 12 floor restack,Restack desk on floors 11 and 12,Newport Beach, 441 OC , TI , Select Bid List , Design/Build , Doyle , S.P. ,Awarded,8988
 60,Lakeshore Towers Signage Sub Metering,Add Sub Meter,Irvine, 441 OC , TI , Negotiated , Design/Build , Frank , Est. ,Awarded,1646
+62,Blizzard B1 Budget,TI for existing space,Irvine, 441 OC , TI , Budget , Engineered , Jeff S , P.M. ,Lost,139892
 63,Kaiser Bellfower Façade,Exterior Lighting,Bellfower, 441 OC , Comercial , Select Bid List , Engineered , Steve  , Est. ,Awarded,90350
 64,Cylance Tenant Improvement,Tenant Improvement,Irvine, 441 OC , Comercial , Select Bid List , Engineered , Steve  , Est. ,Lost,2356168
 65,Blizzard Bld 2 conf room 155 lighitng,Work fo rconference Technologies,Irvine, 441 OC , TI , Select Bid List , Design/Build , Doyle , S.P. ,Awarded,2600
@@ -522,6 +536,7 @@
 82,Deutsche Bank Santa Ana outage and Panel L1CB,New breakers and outage,Santa Ana, 441 OC , TI , Select Bid List , Design/Build , Doyle , S.P. ,Awarded,5630
 83,Bbraun Excell 10 overwrap - CBM,Excel 10 Machine 10 Filling/ Overwrap,Irvine, 441 OC , Industrial , Budget , Design/Build , Brian , S.P. ,Awarded,68900
 85,Blizzard B5 Renovation,Tenant Improvement,Irvine, 441 OC , TI , Select Bid List , Engineered , Frank , Est. ,Lost,489936
+88,AAA Costa Mesa UPS panel and outlets,New Panels and outlets for UPS power,Costa Mesa, 441 OC , TI , Select Bid List , Engineered , Brian , S.P. ,Lost,87717
 90,B-Braun Excel Line 10 - Dennis Phu,Excel Line 10 - B-Braun,Irvine, 441 OC , Industrial , Negotiated , Engineered , Brian , S.P. ,Awarded,24000
 91,B-Braun Prewire 480v + 240v panel for shut down ,Floor work machines,Irvine, 441 OC , Industrial , Negotiated , Design/Build , Brian , S.P. ,Awarded,25078
 92,B-Braun Blowmolder and Filler,Hugo,Irvine, 441 OC , Industrial , Negotiated , Design/Build , Brian , S.P. ,Awarded,16500
@@ -530,6 +545,7 @@
 98,B-Braun Main Plant,Assistance with Fire Alarm,Irvine, 441 OC , Industrial , Negotiated , Design/Build , Brian , S.P. ,Awarded,13005
 99,B-Braun E-3,Printer Control Cabinet,Irvine, 441 OC , Industrial , Negotiated , Design/Build , Brian , S.P. ,Awarded,4890
 100,B-Braun E-3,Xfmr for Printer Control Cabinet,Irvine, 441 OC , Industrial , Negotiated , Design/Build , Brian , S.P. ,Awarded,3100
+102,Hoag Foundation T.I.,Tenant Improvement,Irvine, 441 OC , TI , Competitive , Engineered , Frank , Est. ,Lost,47223
 104,B-Braun - Main Plant PIC,Connect Controller to Nema 4X Box,Irvine, 441 OC , Industrial , Select Bid List , Design/Build , Brian , S.P. ,Lost,13040
 105,B-Braun - Duplex Bldg,Demo Disconnect Old Fill Line #1,Irvine, 441 OC , Industrial , Select Bid List , Design/Build , Brian , S.P. ,Awarded,36100
 106,B-Braun - CBM Vacuum Pump,Wire Vacuum pump ,Irvine, 441 OC , Industrial , Select Bid List , Design/Build , Brian , S.P. ,Awarded,8960
@@ -547,10 +563,12 @@
 130,Blizzard B5 Incubation Demo & TI,Office Tenant Improvement,Irvine, 441 OC , TI , Select Bid List , Engineered , Steve  , Est. ,Lost,1092535
 131,AAA Bld D load study for 7 days,7 day load study,Costa Mesa, 441 OC , TI , Select Bid List , Design/Build , Doyle , S.P. ,Awarded,1100
 132,B-Braun ,Pedestrian Lighting,Irvine, 441 OC , Industrial , Select Bid List , Design/Build , Brian , S.P. ,Awarded,4527
+133,Alorica,Office Tenant Improvement,Irvine, 441 OC , TI , Budget , Engineered , Frank , Est. ,Lost,2163331
 137,Blizzard B1 Restrooms,Office Tenant Improvement,Irvine, 441 OC , TI , Select Bid List , Engineered , Frank , Est. ,Awarded,49921
 138,B|Braun Excel  10,Excel10 Hepa Filter power,Irvine, 441 OC , TI , Negotiated , Design/Build , Brian , S.P. ,Awarded,3946
 139,Ladera Sport office oultet,1 new office outlet,Ladera Ranch, 441 OC , TI , Select Bid List , Design/Build , Doyle , S.P. ,Awarded,400
 141,B|Braun Lab,Conceal Conduits,Irvine, 441 OC , TI , Negotiated , Design/Build , Brian , S.P. ,Awarded,2965
+142,Epson Carson Showroom,Office Tenant Improvement,Carson, 11 LA , TI , Budget , Design/Build , Frank , Est. ,Lost,67187
 144,Operating Engineers replace 2 panels,replace 2 600 amp panels,City of Industry, 441 OC , Comercial , Select Bid List , Design/Build , Doyle , S.P. ,Awarded,12300
 145,B-Braun Titan,Titan Conveyor Support Feeder,Irvine, 441 OC , Industrial , Select Bid List , Engineered , Brian , S.P. ,Awarded,15261
 146,B|Braun Boilder #1,Demo and Removal,Irvine, 441 OC , Industrial , Select Bid List , Engineered , Brian , S.P. ,Awarded,22235
@@ -562,10 +580,12 @@
 154,Netflix CUE,Office Tenant Improvement,Los Angeles, 11 LA , TI , Select Bid List , Engineered , Jeff P. , Est. ,Lost,4760164
 156,Bob Briggs Fire job,Budget for Fire job repair,Laguna Hills, 441 OC , TI , Select Bid List , Design/Build , Doyle , S.P. ,Awarded,13650
 158,AAA Harbor branch add outlets,Add 2 outlets for TV ,Costa Mesa, 441 OC , TI , Select Bid List , Design/Build , Doyle , S.P. ,Awarded,990
+159,Propel Media,Office Tenant Improvement,Irvine, 441 OC , TI , Budget , Engineered , Frank , Est. ,Lost,509316
 163,HHI Womanology Licensing,MOB Tenant Improvement,Irvine, 441 OC , TI , Select Bid List , Engineered , Jeff P. , Est. ,Lost,13843
 164,"B|Braun Medical, Irvine",Catwalk Exit Sign Upgrade,Irvine, 441 OC , Industrial , Select Bid List , Design/Build , Brian , S.P. ,Awarded,14334
 165,Space X,Building HT-21 Lox Vent,Hawthorne, 441 OC , Industrial , Select Bid List , Engineered , Brian , S.P. ,Lost,89731
 166,Canyon Springs MOB,Two Story MOB Building,Riverside, 440 RS , Comercial , Budget , Engineered , Frank , S.P. ,Lost,672570
+167,Blizzard B6 Restack SF & D,Office Tenant Improvement,Irvine, 441 OC , TI , Budget , Design/ Assist , Frank , S.P. ,Lost,547757
 168,AAA Mission viejo connect new whip for furiture,Connect new furniture whip,Mission Viejo, 441 OC , TI , Select Bid List , Design/Build , Doyle , S.P. ,Awarded,710
 169,B|Braun Medical,Tenant Improvement,Irvine, 441 OC , TI , Select Bid List , Design/ Assist , Brian , S.P. ,Awarded,9684
 170,AAA Woodland Hills replace parking lot pole,Replace parking lot pole,Woodland Hills, 441 OC , Site , Select Bid List , Design/Build , Doyle , S.P. ,Awarded,3050
@@ -578,6 +598,7 @@
 177,Party City Title 24,Chino,Chino, 441 OC , Comercial , Select Bid List , Design/Build , Doyle , S.P. ,Awarded,1500
 178,Space X,Paint Booth A & B Shipping Container,Hawthorne, 441 OC , Industrial , Select Bid List , Design/Build , Brian , S.P. ,Lost,8451
 179,B-Braun Medical,Light retrofit IT computer repair lab,Irvine, 441 OC , Industrial , Select Bid List , Design/Build , Brian , S.P. ,Lost,2330
+180,Broadway 4th Floor Corridor - Budget,Corridor Lighting,Irvine, 441 OC , TI , Select Bid List , Design/Build , Steve  , Est. ,Lost,51650
 183,B|Braun Medical,CFM 4,Irvine, 441 OC , Industrial , Negotiated , Design/Build , Brian , S.P. ,Awarded,20000
 185,B|Braun Medical,Office Remodel - Storage Rm 1322,Irvine, 441 OC , Industrial , Select Bid List , Design/Build , Brian , S.P. ,Awarded,5658
 186,Good Shephard Lutheran Parking Lot replacement,Replace parking lot lighting,Irvine, 441 OC , Site , Select Bid List , Design/Build , Doyle , S.P. ,Awarded,48210
@@ -585,11 +606,13 @@
 188,B|Braun Medical,Cool Tower,Irvine, 441 OC , Industrial , Select Bid List , Design/Build , Brian , S.P. ,Awarded,15000
 190,Hoag Tustin Legacy MRI/CT Suite,MRI/CT Suite Tenant Improvement,Tustin, 441 OC , TI , Select Bid List , Engineered , Steve  , Est. ,Awarded,161527
 191,Vyaire 510 & 520 TI,Tenant Improvement,Irvine, 441 OC , TI , Select Bid List , Engineered , Steve  , Est. ,Awarded,3277873
+192,Pimco 18th Floor Door Relocations,Remove and Relocate Existing Devices,Newport Beach, 441 OC , TI , Select Bid List , Design/Build , Frank , Est. ,Lost,12784
 193,B|Braun Medical,Power for load shed,Irvine, 441 OC , Industrial , Select Bid List , Design/Build , Brian , S.P. ,Awarded,6413
 197,TV outlet for Spectrum office in Cerritos Tower,Add one outlet for TV,Cerritos, 441 OC , TI , Select Bid List , Design/Build , Doyle , S.P. ,Awarded,600
 198,Ladera Sport outlet in server room,Add L6-30 outlet in server room,Ladera Ranch, 441 OC , TI , Select Bid List , Design/Build , Doyle , S.P. ,Awarded,1670
 199,17901 Von Karman Switchgear PM,Preventitive Maintenance,Irvine, 441 OC , Comercial , Competitive , Design/Build , Frank , Est. ,Lost,27646
 200,Blizzard B3-RR Upgrade-1st & 2nd Flr.,Office Tenant Improvement,irvine, 441 OC , TI , Select Bid List , Engineered , Frank , Est. ,Awarded,33435
+201,Amarith Café T.I.,Food Service Tenant Improvement,Newport Beach, 441 OC , TI , Budget , Engineered , Frank , Est. ,Lost,152713
 202,FVRMC AAAH OSHPD 3 Upgrades,Surgical Suite Remodel,Fountain Valley, 441 OC , Hospital , Competitive , Engineered , Frank , Est. ,Lost,69439
 203,The Trade Desk,Tenant Improvement,Irvine, 441 OC , TI , Competitive , Engineered , Frank , Est. ,Lost,226054
 205,B|Braun Medical,Strut Stands,Irvine, 441 OC , TI , Select Bid List , Design/Build , Brian , S.P. ,Awarded,7588
@@ -601,11 +624,14 @@
 217,Scripps Midroll,Conduit for Security system,Los Angeles, 11 LA , TI , Select Bid List , Design/Build , Jeff P. , Est. ,Awarded,8024
 218,"B|Braun Medical,  pedestrian lighting phase 2",Pedestrian Lighting phase 2,Irvine, 441 OC , Industrial , Select Bid List , Design/Build , Brian , S.P. ,Awarded,16958
 219,Fire pump drawing assit for Redhawk,Assit with city drawings,Orange , 441 OC , TI , Negotiated , Design/ Assist , Doyle , S.P. ,Awarded,800
+220,Blizzard B2 RR Upgrade,Office Tenant Improvement,Irvine, 441 OC , TI , Select Bid List , Engineered , Frank , Est. ,Lost,35076
 221,"Boardwalk PCO 1008, Lobby Wall Revisions",Office Tenant Improvement,Irvine, 441 OC , TI , Negotiated , Engineered , Frank , Est. ,Awarded,7742
 223,Boardwalk North AV Room Exhaust,Add EF to AV Room,Irvine, 441 OC , TI , Negotiated , Engineered , Frank , Est. ,Awarded,2493
 224,"B|Braun Medical, Main Hallway LED lamp retrofit",Main Hallway LED lamp retrofit,Irvine, 441 OC , Industrial , Select Bid List , Design/Build , Brian , S.P. ,Awarded,5796
 225,"B|Braun Medical, E3 lamp replacement",E3 Lamp Replacement,Irvine, 441 OC , Industrial , Select Bid List , Design/Build , Brian , S.P. ,Awarded,7880
 227,B|Braun Medical,Lamp Replacement,Irvine, 441 OC , Comercial , Negotiated , Design/Build , Brian , S.P. ,Awarded,3000
+228,Murchison & Cumming T.I.,Office Tenant Improvement,Irvine, 441 OC , TI , Select Bid List , Engineered , Frank , Est. ,Lost,74143
+229,"18201 Von Karmna, Spec Suite 150",Office Tenant Improvement,Irvine, 441 OC , TI , Select Bid List , Engineered , Frank , Est. ,Lost,93263
 234,Car wash service replacement ,Replace service,Garden Grove, 441 OC , TI , Select Bid List , Design/Build , Doyle , S.P. ,Awarded,52490
 235,Boy Scouts Fire Damage,Fire damage replacement work,Orange , 441 OC , Site , Select Bid List , Design/Build , Doyle , S.P. ,Awarded,19500
 243,B|Braun Medical - Integrated Interiors - TI,Engineering Mezzanine,Irvine, 441 OC , Industrial , Select Bid List , Design/Build , Brian , S.P. ,Awarded,9873
@@ -615,6 +641,7 @@
 247,"B|Braun Medical, HVLD Excel Overwrap 2-4-5",HVLD Excel Overwrap 2-4-5,Irvine, 441 OC , Industrial , Select Bid List , Design/Build , Brian , S.P. ,Awarded,58480
 250,Chapman Fountain Lighting Installation,Replace lights and power supplies,Orange , 441 OC , Site , Select Bid List , Design/ Assist , Doyle , S.P. ,Awarded,25000
 251,Vyaire Generator Removal,Remove EM Generator,Palm Springs, 477 SB , Site , Budget , Design/Build , Frank , Est. ,Lost,7727
+255,5000 Birch St. Suite 410 spec Suite and  Demo,Suite remodel and (3) suites Demo,Newport Beach, 441 OC , TI , Select Bid List , Engineered , Frank , Est. ,Lost,93271
 256,OCC Temp power oultet install and stub,Sleeve and temp outlets install,Costa Mesa, 441 OC , Site , Select Bid List , Design/Build , Doyle , S.P. ,Awarded,6456
 257,New circuit for sign Paragon Mgmt,New circuit and time clock for sign,Irvine, 441 OC , TI , Select Bid List , Design/Build , Doyle , S.P. ,Awarded,1988
 259,"B|Braun Medical, Load Shed wire trace","B|Braun Medical, Load Shed wire trace",Irvine, 11 LA , TI , Select Bid List , Design/Build , Brian , S.P. ,Awarded,3314
@@ -625,13 +652,17 @@
 268,Blizzard B21 Classic Games,Office Tenant Improvement,Irvine, 441 OC , TI , Select Bid List , Engineered , Steve  , Est. ,Lost,169065
 270,Verizon Service Upgrade Project,Power upgrade,Mission Viejo, 441 OC , TI , Select Bid List , Engineered , Brian , S.P. ,Awarded,85560
 271,Jacobs Pasadena,Office Tenant Improvement,Pasadena, 11 LA , TI , Select Bid List , Engineered , Steve  , Est. ,Lost,146842
+272,HHNB Big 18 Switchgear,New Dist. Board Installation,Newport Beach, 441 OC , Hospital , Select Bid List , Engineered , Bill  , P.M. ,Lost,76413
 273,Epson Conference room data and lighting,New lights and Cisco boxes,Long Beach, 441 OC , TI , Select Bid List , Design/Build , Doyle , S.P. ,Awarded,7000
+275,Blizzard B16- Team 4 Event space budget,TI Budget,irvine, 441 OC , TI , Select Bid List , Design/ Assist , Jeff S , P.M. ,Lost,38225
 276,9740/9750 Irvine Blvd Renovation,Renovate two existing buildings,Irvine, 441 OC , Comercial , Select Bid List , Engineered , Steve  , Est. ,Lost,331709
+277,Blizzard B2 RR Upgrades,Restroom Upgreade,Irvine, 441 OC , TI , Select Bid List , Engineered , Steve  , Est. ,Lost,34353
 279,Ladera Sport Conference room outlets,2 new outlets in conference room,Ladera Ranch, 441 OC , TI , Select Bid List , Design/Build , Doyle , S.P. ,Awarded,1100
 280,Ladera Sport Café outlet rework,Rework outlets in Café,Ladera Ranch, 441 OC , TI , Select Bid List , Design/Build , Doyle , S.P. ,Awarded,1250
 282,Masimo Demo Center,OR Demo Room,Irvine, 441 OC , TI , Negotiated , Engineered , Frank , Est. ,Awarded,194907
 283,Deustche Bank 2 oultets in server room,2 L5-20 outlets in server room,Santa Ana, 441 OC , TI , Select Bid List , Design/Build , Doyle , S.P. ,Awarded,8820
 285,Epson Cisco boxes and 2 lights for Jim Scarp HBC,2 conference room boxes and power,Long Beach, 441 OC , TI , Select Bid List , Design/Build , Doyle , S.P. ,Awarded,7080
+286,Boardwalk 4th Floor Corrridors South Tower,New corridors on 4th floor,Irvine, 441 OC , TI , Select Bid List , Engineered , Frank , Est. ,Lost,34677
 287,DMV Office Quarters Suite 325 & 350,Office Tenant Improvement,Cerritos, 441 OC , TI , Competitive , Design/Build , Frank , Est. ,Lost,207629
 288,"B|Braun Medical, Tustin Warehouse",Add Outlets,Tustin, 441 OC , Industrial , Select Bid List , Design/Build , Brian , S.P. ,Awarded,13347
 289,B|Braun Medical Ventilation Upgrade Project,B|Braun Medical Ventilation Upgrade Project,Irvine, 441 OC , Industrial , Competitive , Engineered , Brian , S.P. ,Lost,168795
@@ -641,6 +672,7 @@
 293,Youngs Print Shop outlets,2 new outlets in print shop storage,Tustin, 441 OC , TI , Select Bid List , Design/Build , Doyle , S.P. ,Awarded,700
 294,Lakeshore towers camera cable and install,Install cameras and cable,Irvine, 441 OC , Parking Structure , Select Bid List , Design/ Assist , Doyle , S.P. ,Awarded,29705
 295,Kasier Bellflower Temp Power,Temp power floors 6-8 and roof,Bellflower, 441 OC , Hospital , Select Bid List , Design/ Assist , Jeff S , P.M. ,Awarded,26207
+296,Epson Customer Breifing Center,Office Tenant Improvement,Long Beach, 11 LA , TI , Budget , Design/Build , Frank , Est. ,Lost,22969
 299,FVRH temp genest for 2 services,2 temp gensets,Fountain Valley, 441 OC , Hospital , Select Bid List , Design/Build , Doyle , S.P. ,Awarded,13745
 300,LPA Office TI,Office Tenant Improvement,Irvine, 441 OC , TI , Budget , Engineered , Frank , Est. ,Lost,690855
 304,Bbraun B3 Renovation Project ,Precon Design / Assist Service,Irvine, 441 OC , Industrial , Competitive , Design/ Assist , Frank , Est. ,Lost,1197400
@@ -654,6 +686,7 @@
 317,Valvoline 2 new circuits and outlets for Datacom,New outlets for datacom,Santa Fe Springs, 441 OC , TI , Select Bid List , Design/Build , Doyle , S.P. ,Awarded,2797
 319,OCC Clark Center lighting ,install over 100 CF light fixtures,Costa Mesa, 441 OC , TI , Select Bid List , Design/Build , Doyle , S.P. ,Awarded,34716
 326,"Hoag HC Tustin Legacy PT, IM, HOI Suite",Partial 3rd floor TI,Tustin, 441 OC , TI , Select Bid List , Engineered , Steve  , Est. ,Awarded,459492
+330,HHNB Breast Care Center,Renovate  existing hospital suite,Newport Beach, 441 OC , Hospital , Select Bid List , Engineered , Bill  , P.M. ,Lost,48893
 331,KabaFusion Light fixture rework,Rework one fixture with new control,Cerritos, 441 OC , TI , Select Bid List , Design/Build , Doyle , S.P. ,Awarded,970
 332,San Manual South Casino Entry,Casino Tenant Improvement,Highland, 440 RS , Specialty , Budget , Engineered , Frank , Est. ,Lost,1855122
 334,Chapman Parking Structure E ballast replacement,Replace 3 ballast and lamps,Orange , 441 OC , Parking Structure , Select Bid List , Design/Build , Doyle , S.P. ,Awarded,22500
@@ -661,20 +694,30 @@
 336,HHNB Breast Center MRI Replacement,Replacing existing MRI,Newport Beach, 441 OC , Hospital , Select Bid List , Engineered , Steve  , Est. ,Awarded,65625
 337,Experian Phase 2 Building C ,"Tenant Improvement 2,3,4 Floors",Costa Mesa, 441 OC , TI , Select Bid List , Engineered , Frank , Est. ,Lost,817710
 340,Deutsche Santa Ana IR scan,IR scan,Irvine, 441 OC , TI , Select Bid List , Design/Build , Doyle , S.P. ,Awarded,7900
+341,HHI Lab Mechanical,New EF and FAU for the Lab,Irvine, 441 OC , Hospital , Select Bid List , Engineered , Steve  , Est. ,Lost,10072
 342,Anaheim Corp refeed outside lighting,Refeed outside lighting,Anaheim, 441 OC , TI , Select Bid List , Design/ Assist , Doyle , S.P. ,Lost,990
 343,CCH - 9th Floor Conrerence Room,Change of use remodel,Los Angeles, 11 LA , TI , Select Bid List , Engineered , Steve  , Est. ,Lost,14044
 348,Blizzard B16 Overwatch,Reconfigure walls and ceilings,Irvine, 441 OC , TI , Select Bid List , Engineered , Steve  , Est. ,Awarded,38242
 351,PSJMC Pharmacy UPS,Pharmacy Remodel/ HVAC work,Burbank, 11 LA , Hospital , Select Bid List , Engineered , Don V , Est. ,Lost,220687
+353,Lakeshore Tower Retroom & Janitors Closet Addition,New restrm. & janitors Closet ,Irvine, 441 OC , TI , Select Bid List , Engineered , Don V , Est. ,Lost,52382
+354,Boardwalk 18575 2nd Flr. Spec Suite,Office Tenant Improvement,Irvine, 441 OC , TI , Budget , Engineered , Frank , Est. ,Lost,226324
 355,Paciolan,Office Tenant Improvement,Irvine, 441 OC , TI , Select Bid List , Engineered , Steve  , Est. ,Awarded,681282
 356,"B|Braun Medical, Duplex",Power for floor polishing machines,Irvine, 441 OC , Industrial , Select Bid List , Design/Build , Brian , S.P. ,Awarded,13745
 358,AAA new cable and backboard Ladera Ranch,Add new backboard and cable,Ladera Ranch, 441 OC , TI , Select Bid List , Design/Build , Doyle , S.P. ,Awarded,1150
 364,The District at South Bay / Fashion Outlets of LA,UG Infrastructure Impovements,Carson, 11 LA , Site , Select Bid List , Engineered , Steve  , Est. ,Lost,897922
 365,GPISC Restaurant ,Restaurant Tenant Improvement,Irvine, 441 OC , TI , Budget , Engineered , Frank , Est. ,Awarded,61485
 367,FVRH replace bad breakers,Replace bad breakers in existing gear,Fountain Valley, 441 OC , Hospital , Select Bid List , Design/Build , Doyle , S.P. ,Awarded,14530
+368,"Blizzard B1, 3rd Flr. RR Upgrade",Restroom Upgreade,Irvine, 441 OC , TI , Select Bid List , Engineered , Frank , Est. ,Lost,13253
+369,Chevron - 9RES,Fire Alarm,El Segundo, 11 LA , Fire Alarm , Select Bid List , Engineered , Ron , P.M. ,Lost,17000
 370,Compass T.I.,Office Tenant Improvement,Pasadena, 11 LA , TI , Competitive , Engineered , Frank , Est. ,Lost,121661
+375,Hoag NB Suite 305,3rd Floor T.I.,Newport Beach, 441 OC , TI , Select Bid List , Engineered , Don V , Est. ,Lost,58133
+380,HHNB North Tower Floors 2-3 INP,Hospital Tenant Improvement,Newport Beach, 441 OC , Hospital , Budget , Engineered , Frank , Est. ,Lost,269589
+381,2160 E. Grand,Demo ,El Segundo, 11 LA , TI , Budget , Engineered , Frank , Est. ,Lost,136049
 383,Lakeshore Plaza @ Dos Lagos,Ground Up Office Building,Corona, 440 RS , Shell , Budget , Engineered , Frank , Est. ,Lost,2095446
 384,Greystar,Office Tenant Improvement,Newport Beach, 441 OC , TI , Competitive , Engineered , Steve  , Est. ,Lost,347358
+386,Jones Day,Office Tenant Improvement,Irvine, 441 OC , TI , Public Works , Engineered , Frank , Est. ,Lost,174892
 387,"B|Braun Medical, 2nd Floor QC Offices",Hook up modualr furniture,Irvine, 441 OC , TI , Select Bid List , Design/Build , Brian , S.P. ,Awarded,11353
+389,Blizzard B25 Suite 200,Office Tenant Improvement,Irvine, 441 OC , TI , Select Bid List , Engineered , Frank , Est. ,Lost,332551
 1,The Schools First Credit Union,New Construction,Tustin, 441 OC , Comercial , Negotiated , Design/ Assist , Frank , Est. ,Lost,24897
 2,"B-Braun Medical, TCU Skid",Roof Mounted TCU,Irvine, 441 OC , Industrial , Competitive , Engineered , Brian , S.P. ,Awarded,42429
 5,"B-Braun Medical, Valencia ",Exterior Light Study,Tustin, 441 OC , Industrial , Budget , Design/Build , Brian , S.P. ,Awarded,3600
@@ -712,6 +755,7 @@
 89,B|Braun Medical LED Upgrade,Glass Line Lamp Replacement,Irvine, 441 OC , Industrial , Negotiated , Design/Build , Brian , S.P. ,Awarded,9500
 90,"B|Braun Medical, New Office at E3",TI for New Office,Irvine, 441 OC , TI , Select Bid List , Design/Build , Brian , S.P. ,Awarded,15054
 91,Prime West Anaheim,Pharmacy Remodel,Anaheim, 441 OC , Hospital , Select Bid List , Engineered , Don V , Est. ,Awarded,88341
+93,"B|Braun Medical, Electronics Shop",Added switches and receptacles,Irvine, 441 OC , Industrial , Select Bid List , Design/Build , Brian , S.P. ,Lost,1900
 95,AAA Cafeteria generator tie and support,Tie CF genset to panel,Costa Mesa, 441 OC , TI , Select Bid List , Design/Build , Doyle , S.P. ,Awarded,1810
 96,Good Shephard Lutheran Youth Center,New lighting and power for roof work,Irvine, 441 OC , TI , Select Bid List , Design/Build , Doyle , S.P. ,Awarded,5840
 99,"B|Braun Medical, Excel Overwrap",Add receptacles for power supplies,Irvine, 441 OC , TI , Select Bid List , Design/Build , Brian , S.P. ,Awarded,1551
@@ -719,6 +763,7 @@
 101,Deutsche bank outage support,Stand by for utility outage,Santa Ana, 441 OC , TI , Select Bid List , Design/Build , Doyle , S.P. ,Awarded,985
 102,Rockwell GFCI main recertify,Test/recertify main breaker GFCI,Irvine, 441 OC , TI , Select Bid List , Design/Build , Doyle , S.P. ,Awarded,4640
 103,"B-Braun Medical, QC Offices Phase 2",Tenant Improvement,Irvine, 441 OC , TI , Select Bid List , Design/Build , Brian , S.P. ,Awarded,10830
+104,"B-Braun Medical, QC Lab","LED Lighting upgrade, Misc TI",Irvine, 441 OC , TI , Select Bid List , Design/Build , Brian , S.P. ,Lost,14352
 110,HHC Foothill Ranch,MOB Tenant Improvement,Foothill Ranch, 441 OC , TI , Competitive , Engineered , Don V , Est. ,Awarded,258664
 116,"B|Braun Medical, Excel Line 1",CBM/Excel machine,Irvine, 441 OC , Industrial , Select Bid List , Design/Build , Brian , S.P. ,Awarded,26820
 117,"B|Braun Medical, HVLD Machine",New HVLD Machine,Irvine, 441 OC , Industrial , Select Bid List , Design/Build , Brian , S.P. ,Awarded,9140
@@ -789,6 +834,7 @@
 287,AAA Newport New outlets,New outlets for cubicals,Newport Beach, 441 OC , TI , Select Bid List , Design/Build , Doyle , S.P. ,Awarded,880
 297,Hoag Foothill Ranch T.I.,MOB Tenant Improvement,Foothill Ranch, 441 OC , TI , Select Bid List , Engineered , Steve  , Est. ,Awarded,1952002
 301,Malcom international new beacon install,Install CF beacon on panel,Corona, 441 OC , Site , Select Bid List , Design/Build , Doyle , S.P. ,Awarded,1300
+303,Anita Behavioral Health Campus,New construction 3 Story,Orange, 441 OC , TI , Select Bid List , Design/Build , Steve  , S.P. ,Awarded,2273802
 307,"B|Braun Medical, Sub-K Load Study",Sub-K Load Study,Irvine, 441 OC , Industrial , Negotiated , Design/Build , Brian , S.P. ,Awarded,1900
 308,American Marine 208 volt transformer,Add transformer and disconnect,San Pedro, 441 OC , Site , Select Bid List , Design/Build , Doyle , S.P. ,Awarded,5000
 309,Aliso Viejo 3 building surveys,Survey 3 buildings for TK1SC,Aliso Viejo, 441 OC , TI , Select Bid List , Design/Build , Doyle , S.P. ,Awarded,14080
