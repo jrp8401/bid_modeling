@@ -65,6 +65,7 @@ Since there is an inbalance between the `Awarded` and `Lost` classes I used SMOT
 I then used GridSeachCV along with a LogisticRegression model to choose the optimal parameters for the model. 
 
 Accuracy Score: 0.8289473684210527
+
 Recall Score: 0.8006230529595015
 
 Feature |  Coefficient |
