@@ -23,6 +23,7 @@ The features that were available for almost every project was `Project Descripti
 One of the first features I looked at was the `Bid Amount` in dollars. Most of the bids are on smaller, cheaper projects, however there is a small portion of million dollar plus bids. These cheaper projects have a higher hit rate than the expensive ones. 
 
 **Bid Amount**
+
 ![](https://github.com/jrp8401/bid_modeling/blob/master/imgs/low_range.png)
 
 ![](https://github.com/jrp8401/bid_modeling/blob/master/imgs/mid_low.png)
