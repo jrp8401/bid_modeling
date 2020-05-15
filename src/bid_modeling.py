@@ -9,7 +9,8 @@ from statsmodels.stats.outliers_influence import variance_inflation_factor
 from sklearn import metrics
 import matplotlib.pyplot as plt
 from sklearn.ensemble import RandomForestClassifier
-
+from pandas.plotting import table 
+import matplotlib.pyplot as plt
 def bid_model(X_train,y_train,X_test,y_test,grid, model,log= True):
    
     gridsearch = GridSearchCV(model(), grid, n_jobs = -1)
@@ -40,7 +41,8 @@ def bid_model(X_train,y_train,X_test,y_test,grid, model,log= True):
     print(confusion_matrix(y_test, y_hat))
 
     print(dict(zip(X.columns,gridsearch.best_estimator_.coef_[0])))
-    return accuracy_score(y_test, y_hat),recall_score(y_test, y_hat), param
+    return gridsearch.best_estimator_.coef_[0]
+    # return accuracy_score(y_test, y_hat),recall_score(y_test, y_hat), param
 
 if __name__ == '__main__':
     # read data
@@ -69,44 +71,52 @@ if __name__ == '__main__':
     #              "max_leaf_nodes": [2, 5,10]}
    
     # results.append(bid_model(X_train,y_train,X_test,y_test,rf_grid, RandomForestClassifier))
-    random_grid ={'bootstrap': [True, False],
-                    'max_depth': [10, 20, 50, 100, None],
-                    'max_features': ['auto', 'sqrt'],
-                    'min_samples_leaf': [1, 2, 4],
-                    'min_samples_split': [2, 5, 10],
-                    'n_estimators': [100,200, 400, 1000]}
+    # random_grid ={'bootstrap': [True, False],
+    #                 'max_depth': [10, 20, 50, 100, None],
+    #                 'max_features': ['auto', 'sqrt'],
+    #                 'min_samples_leaf': [1, 2, 4],
+    #                 'min_samples_split': [2, 5, 10],
+    #                 'n_estimators': [100,200, 400, 1000]}
 
-    rf = RandomForestClassifier()
-    rf_random = RandomizedSearchCV(estimator = rf, param_distributions = random_grid, n_iter = 50, cv = 3, verbose=2, random_state=42, n_jobs = -1)
-    # Fit the random search model
-    rf_random.fit(X_train, y_train)
+    # rf = RandomForestClassifier()
+    # rf_random = RandomizedSearchCV(estimator = rf, param_distributions = random_grid, n_iter = 50, cv = 3, verbose=2, random_state=42, n_jobs = -1)
+    # # Fit the random search model
+    # rf_random.fit(X_train, y_train)
 
-    probs = rf_random.predict_proba(X_test)[:,1]
-    max_acc = [-1,-1]
-    for i in np.arange(.2,.8,.01):
-        y_hat = (probs >= i).astype(int)
-        acc = (accuracy_score(y_test, y_hat))
-        if acc>max_acc[1]:
-            max_acc[0] = i
-            max_acc[1] = acc
-    y_hat = (probs >= max_acc[0]).astype(int)
+    # probs = rf_random.predict_proba(X_test)[:,1]
+    # max_acc = [-1,-1]
+    # for i in np.arange(.2,.8,.01):
+    #     y_hat = (probs >= i).astype(int)
+    #     acc = (accuracy_score(y_test, y_hat))
+    #     if acc>max_acc[1]:
+    #         max_acc[0] = i
+    #         max_acc[1] = acc
+    # y_hat = (probs >= max_acc[0]).astype(int)
     
-    print(recall_score(y_test, y_hat)) 
-    print(accuracy_score(y_test, y_hat))
-    print(confusion_matrix(y_test, y_hat))
+    # print(recall_score(y_test, y_hat)) 
+    # print(accuracy_score(y_test, y_hat))
+    # print(confusion_matrix(y_test, y_hat))
 
-    print(dict(zip(X.columns,rf_random.best_estimator_.feature_importances_)))
+    # print(dict(zip(X.columns,rf_random.best_estimator_.feature_importances_)))
 
-    # log_reg_grid = {'C':[1,10,100], 
-    #             'fit_intercept' :[True,False],
-    #             'solver' : ['newton-cg', 'liblinear', 'sag','saga','lbfgs'],
-    #             'max_iter' : [100,500,1000,2000]
+    log_reg_grid = {'C':[1,10,100], 
+                'fit_intercept' :[True,False],
+                'solver' : ['newton-cg', 'liblinear', 'sag','saga','lbfgs'],
+                'max_iter' : [100,500,1000,2000]
                 
-    #            }
-    # results.append(bid_model(X_train,y_train,X_test,y_test,log_reg_grid, LogisticRegression))
+               }
+    coefs= bid_model(X_train,y_train,X_test,y_test,log_reg_grid, LogisticRegression)
 
+    df = pd.DataFrame()
+    df['Features'] = X.columns 
+    df['Coefs'] = coefs
+    ax = plt.subplot(111, frame_on=False) # no visible frame
+    ax.xaxis.set_visible(False)  # hide the x axis
+    ax.yaxis.set_visible(False)  # hide the y axis
 
+    table(ax, df)  # where df is your data frame
 
+    plt.savefig('Coefs.png')
     
 
     # fpr, tpr, thresholds = metrics.roc_curve(y_test, probs, pos_label=1)
