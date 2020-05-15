@@ -84,4 +84,6 @@ Feature |  Coefficient |
 
 # Conclustion
 
+This model was able to predict whether or not a bid wil be awarded fairly well. I was also able to find some relatonships between the features and this prediction. I think one of the main weaknesses of this model is lack of data. I plan on trying to update these bid logs in order to fill in missing values and correctly reclassify some of projects that are no longer `Pending`.
+
 
