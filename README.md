@@ -1,9 +1,7 @@
 # bid_modeling
 
-<<<<<<< HEAD
-=======
-Background
-This data comes from a comercial electrical contractor that specializes in medical and office buildings. In order to get a new project this company must  
+# Background
+This data comes from a comercial electrical contractor that specializes in medical and office buildings. For many of their projects they must 
 Invites/applications from General contracts sends a request for a bid. mostly focus on companies that have prior relatiohsips
 some projects are done throgh GCs but other projects have full time electricans working a a facilty where constant presence client.
 Come walk job and give an estimate. most work through GC Socal locals
