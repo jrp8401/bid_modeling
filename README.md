@@ -34,16 +34,22 @@ One of the first features I looked at was the `Bid Amount` in dollars. Most of t
 
 
 **Deparments**
+
 ![](https://github.com/jrp8401/bid_modeling/blob/master/imgs/departments.png)
+
 The three different departments tend to bid on specific projects.
 Special projects mostly works cheaper projects, usually an update for a past client.  
 Estimating department works mostly on competitive bids.
 
 **Bid Types**
+
 ![](https://github.com/jrp8401/bid_modeling/blob/master/imgs/bid_type.png)
+
 Select Bid List refers to the small amount of other electracal contractors bidding for the job. While competitive is agianst several other companies. 
 
 **Local**
+
 ![](https://github.com/jrp8401/bid_modeling/blob/master/imgs/local.png)
+
 Since this company is based in Orange County in is unsiprising to see that the majority of the jobs are local. Bids outside of OC do not do well. 
  
