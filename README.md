@@ -57,6 +57,7 @@ Bids outside of OC do not do well.
  
 # Feature Engineering
 In order to change `Bid Amount` from a numerical value to a categorical value based on the IQR. Then I created a column for every category in each of the other features. I then preformed VIF and removed the feature with the highest score. I repeated this several times to minimize the VIF scores and reduce colinearity between features. I also changed my target `Bid Status` from `Awarded` and `Lost` to `1` and `0`.   
+![](https://github.com/jrp8401/bid_modeling/blob/master/imgs/vif.png)
 
 # Models
 Since there is an inbalance between the `Awarded` and `Lost` classes I used SMOTE to resample and split my train and test sets. 
