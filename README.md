@@ -16,6 +16,8 @@ Upon my initial EDA I noticed empty values in the spreadsheet. I was able to fil
 The features that were available for almost every project was `Project Description`, `City`, `Local Guild`, `Project Type`, `Bid Type`, `Design Type`, `Estimator`, `Department`, `Bid Amount` and `Bid Status`.
 
 ![](https://github.com/jrp8401/bid_modeling/blob/master/imgs/base_bid.png)
+
+
 One of the first features I looked at was the price of the bids in dollars. Most of the bids are on smaller, cheaper projects, however there is a small portion of million dollar plus bids. These cheaper projects have a higher hit rate than the expensive ones. 
 
 
