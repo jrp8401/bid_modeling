@@ -74,22 +74,22 @@ Recall Score: 0.8289473684210527
 
 Feature |  Coefficient |
 | ----------- | ----------- |
-| EST | -1.141563 |
-| PM | -0.145808 |
-| OC | 0.630806 |
-| Budget | -0.302537 |
-| Competitive | -0.824628 |
-| Negotiated | 2.143627 |
-| D/A | 0.028728 |
-| D/B | 0.750628 |
-| 50% Bid | -0.138291 |
-| 75% Bid | -0.508384 |
-| Big Bid | -0.942494 |
+| EST | -0.204 |
+| PM | 0.146 |
+| OC | 0.284 |
+| Budget | -1.062 |
+| Competitive | -0.476 |
+| Negotiated | 0.779 |
+| D/A | -0.327 |
+| D/B | -0.034 |
+| 50% Bid | -0.305 |
+| 75% Bid | -0.637 |
+| Big Bid | -1.143 |
 
 # Conclusion
 
 This model was able to predict whether or not a bid will be awarded fairly well. It was also able to find factors that influence the predictions. I think one of the main weaknesses of this model is lack of data. I plan on trying to update these bid logs in order to fill in missing values and correctly reclassify some of projects that are no longer `Pending`.
 
 
-
+EST': -0.20373726910230494, 'PM': 0.14601369993045227, 'OC': 0.2840380231727323, 'Budget': -1.0615162760141945, 'Competitive': -0.4756432036181953, 'Negotiated': 0.7794132210366219, 'D/A': -0.32679902342525796, 'D/B': -0.034084443796219305, '50% Bid': -0.3048267407473342, '75% Bid': -0.6371681390687041, 'Big Bid': -1.1433331273505205}
 
