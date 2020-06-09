@@ -33,7 +33,8 @@ def VIF(X):
 
 
 def recll_thres(y_test,probs):
-
+    # calculates ideal threshold
+    # returns y_hat at that threshold
     max_rec = [-1,-1]
     for i in np.arange(.4,.9,.01):
         y_hat = (probs >= i).astype(int)
@@ -47,41 +48,47 @@ def recll_thres(y_test,probs):
     return y_hat
 
 def print_scores(y_test,yhat,probs):
+    #prints scores 
+    print('Recall')
     print(recall_score(y_test, yhat)) 
+    print('Accuraccy')
     print(accuracy_score(y_test, yhat))
+    print('Confusion Matrix')
     print(confusion_matrix(y_test, yhat))
     # print(roc_auc_score(y_test, probs))
     print()
 
 def eval_models(X,y):
+
+    #train test split
     X_train, X_test, y_train, y_test =train_test_split(X,y,random_state = 125,stratify=y)
+
     #logistic reg
     model = LogisticRegression(n_jobs = -1, tol  = .001, solver = 'liblinear', max_iter = 1000, fit_intercept= True, C=1)  
     model.fit(X_train, y_train)
    
     probs = model.predict_proba(X_test)[:,1]
     yhat = recll_thres(y_test,probs)
-    # yhat = model.predict(X_test)
     print_scores(y_test,yhat,probs)
 
     # print coefs
-    print(dict(zip(X.columns,model.coef_[0])))
-    print()
+    # print(dict(zip(X.columns,model.coef_[0])))
+    # print()
+
     #SGD
     est= SGDClassifier(n_jobs =-1,early_stopping = True,fit_intercept=True, shuffle = True, tol = None, penalty ='l2', max_iter = 1000, loss = 'modified_huber', learning_rate = 'constant', eta0 =.001)
     est.fit(X_train,y_train)
-   
     probs = est.predict_proba(X_test)[:,1]
     yhat = recll_thres(y_test,probs)
-    # yhat = est.predict(X_test)
     print_scores(y_test,yhat,probs)
+
+
     #RandomFOresst
     rf = RandomForestClassifier(n_estimators = 45,min_samples_split = 5,min_samples_leaf = 4,max_features = 'sqrt', max_depth = 52)
     rf.fit(X_train,y_train)
 
     probs = rf.predict_proba(X_test)[:,1]
     yhat = recll_thres(y_test,probs)
-    # yhat = rf.predict(X_test)
     print_scores(y_test,yhat,probs)
 
 def dump_model(rf, train_columns):
@@ -98,10 +105,11 @@ if __name__ == '__main__':
     df.drop(['Unnamed: 0'],axis =1 ,inplace = True)
   
     y = df['Bid Status']
-    X = df.drop(['Bid Status'],axis = 1)
-    # VIF(X)
+    X = df.drop(['Bid Status'],axis = 1)    
+    # evaluate models
     eval_models(X,y)
    
+    # create model
     rf = RandomForestClassifier(n_estimators = 45,min_samples_split = 5,min_samples_leaf = 4,max_features = 'sqrt', max_depth = 52)
     rf.fit(X, y)
     train_columns = list(X.columns)
