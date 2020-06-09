@@ -1,0 +1,16 @@
+
+<form action="/prediction" method='POST'>
+    <ol>
+        {% for i in q %}
+            <li><u>{{i}}</u> </li>
+            {% for j in q[i] %}
+                <input type='radio' value='{{j}}' name='{{i}}' />{{j}}
+            {% endfor %}
+        {% endfor %}
+    </ol>
+
+
+
+  
+  <input type="submit" value="Submit for bid prediction">
+</form>

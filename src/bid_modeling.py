@@ -46,7 +46,7 @@ def bid_model(X_train,y_train,X_test,y_test,grid, model,log= True):
 
 if __name__ == '__main__':
     # read data
-    df = pd.read_csv('data/bid_data_feature.csv')
+    df = pd.read_csv('data/bid_data_feature2.0.csv')
     df.drop(['Unnamed: 0'],axis =1 ,inplace = True)
   
     y = df['Bid Status']
@@ -58,9 +58,11 @@ if __name__ == '__main__':
     vif["features"] = X.columns
     print(vif)
 
-    # SMOTE sampling class imbalance
-    X_resampled, y_resampled = SMOTE().fit_resample(X, y)
+    # SMOTE sampling for class imbalance
+    X_train, X_hold, y_train, y_hold = train_test_split(X, y)
+    X_resampled, y_resampled = SMOTE().fit_resample(X_train,y_train)
     X_train, X_test, y_train, y_test = train_test_split(X_resampled,y_resampled)
+    # X_train, X_test, y_train, y_test  = train_test_split(X, y)
 
     results  =[]
 
@@ -99,16 +101,19 @@ if __name__ == '__main__':
 
     # print(dict(zip(X.columns,rf_random.best_estimator_.feature_importances_)))
 
-    log_reg_grid = {'C':[1,10,100], 
+    log_reg_grid = {'C':[1,2,3,5,10,100], 
                 'fit_intercept' :[True,False],
-                'solver' : ['newton-cg', 'liblinear', 'sag','saga','lbfgs'],
-                'max_iter' : [100,500,1000,2000]
+                'solver' : ['newton-cg'],# 'liblinear', 'sag','saga','lbfgs'],
+                'max_iter' : [100,500,1000]
                 
                }
-    coefs= bid_model(X_train,y_train,X_test,y_test,log_reg_grid, LogisticRegression)
+    coefs= bid_model(X_train,y_train,X_hold,y_hold,log_reg_grid, LogisticRegression)
 
     df = pd.DataFrame()
     df['Features'] = X.columns 
+
+    
+    
     df['Coefs'] = coefs
     ax = plt.subplot(111, frame_on=False) # no visible frame
     ax.xaxis.set_visible(False)  # hide the x axis
